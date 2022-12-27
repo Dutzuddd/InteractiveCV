@@ -3,14 +3,16 @@
 <head>
 <title>Vlad S.</title>
 </head>
-<frameset rows="30%,*"frameborder="yes" border="3" bordercolor="cyan">
+<!-- Pagina principala pe care am impartit-o in 3 frame-uri conform cerintei -->
+<frameset rows="33%,*"frameborder="yes" border="3" bordercolor="cyan">
     <frame name="title_page" src="vlad.html">
 <frameset cols="200,*">
     <frame name="menu_page" src="menu.html"/>
     <frame name="main_page" src="main.html"/>
     <noframes>
+        <!-- In cazul in care browser-ul nu suporta frame-uri se afiseaza un mesaj -->
         <body>
-            Browser does not support frameset tag
+            Browser does not support frameset tag!
         </body>
     </noframes>
 </frameset>

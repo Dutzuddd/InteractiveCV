@@ -1,0 +1,31 @@
+table
+{
+    width: 400px;
+   /* border-spacing: 4px; */
+}
+th, caption
+{
+    text-align:center;
+}
+table, th, td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td
+{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+tr:nth-child(even)
+{
+    background-color: #fff;
+}
+/*schimbat culoarea la primul rand din tabel, cel cu titlu*/
+tr:nth-child(1)
+{
+    background-color: aquamarine;
+}
+tr:nth-child()
